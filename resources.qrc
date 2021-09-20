@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>src/stylesheets/chartWidget.qss</file>
+    <file>src/stylesheets/fxWidget.qss</file>
+    <file>src/stylesheets/studiesWidget.qss</file>
+    <file>src/stylesheets/mainWindow.qss</file>
+    <file>src/stylesheets/utilities.qss</file>
+    <file>src/stylesheets/customWidgets.qss</file>
+    <file>src/stylesheets/orderWidget.qss</file>
+    <file>src/fonts/Roboto/Roboto-Regular.ttf</file>
+</qresource>
+</RCC>

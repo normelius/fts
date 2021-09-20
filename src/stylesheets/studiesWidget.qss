@@ -1,0 +1,112 @@
+
+QDialog {
+  background-color: #282B31;
+  border: 0px;
+}
+
+/*
+This handles the color of the right hand side of the StudiesWidget.
+Bad idea to apply color to a QWidget, should specify more.
+QWidget {
+  background-color: #34373E;
+  border: 0px;
+}
+*/
+
+QLabel {
+  color: #EEEEEE;
+  font-size: 14pt;
+}
+
+QLineEdit {
+  max-width: 80;
+  min-width: 80;
+  font-size: 14pt;
+  max-height: 26;
+  min-height: 26;
+  background-color: #EEEEEE;
+  border: 2px solid rgba(18, 246, 170, 70);
+  border-radius: 4px;
+}
+
+QPushButton {
+  max-width: 80;
+  min-width: 80;
+  max-height: 30;
+  min-height: 30;
+  font-size: 14pt;
+  border-radius: 4px;
+  color: #EEEEEE;
+  background-color: rgba(18, 246, 170, 70);
+}
+
+QPushButton:hover {
+  background-color: rgba(18, 246, 170, 90);
+}
+
+#studiesTree {
+  background-color: #282B31; 
+  font-size: 13pt;
+  /*show-decoration-selected: 0;*/
+}
+
+#studiesTree::item {
+  height: 30px;
+  background-color: #282B31; 
+  border: 0px; 
+  color: #EEEEEE;
+}
+
+#studiesTree::branch {
+  background-color: #282B31;
+}
+
+#studiesTree::item:selected,
+#studiesTree::item:hover,
+#studiesTree::branch:hover,
+#studiesTree::branch:selected {
+  background-color: #087651;
+}
+
+
+#activeWidgetTree,
+#activeWidgetTree::item:selected,
+#activeWidgetTree::item:hover,
+#activeWidgetTree::branch:hover,
+#activeWidgetTree::branch:selected {
+  border: 0px;
+  background-color: #34373E;
+  font-size: 13pt;
+}
+
+#activeWidgetTree::item,
+#activeWidgetTree::branch {
+  height: 30px;
+  background-color: #34373E; 
+  border: 0px; 
+  color: #EEEEEE
+}
+
+
+/* Style the custom combobox */
+#customSourceCombo {
+  border-style: solid;
+  font-size: 14pt;
+  background-color: #EEEEEE;
+  min-height: 26px;
+  border: 2px solid rgba(18, 246, 170, 70);
+  border-radius: 4px;
+  min-width: 5em;
+  max-width: 5em;
+}
+
+#customSourceCombo:hover {
+  border: 1px solid #43474F;
+}
+
+QComboBox QAbstractItemView {
+  border: 0px;
+  background-color: #EEEEEE;
+  color: black;
+  selection-background-color: lightgray;
+}

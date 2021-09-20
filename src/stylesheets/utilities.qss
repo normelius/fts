@@ -1,0 +1,12 @@
+
+#closeButton {
+  background: transparent;
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+}
+
+#closeButton:hover {
+  background-color: #282B31;
+}

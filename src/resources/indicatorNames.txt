@@ -1,0 +1,9 @@
+Bollinger Bands
+Double Exponential Moving Average
+Exponential Moving Average 
+Linear Weighted Moving Average
+Simple Moving Average
+Smoothed Moving Average
+T3 Moving Average
+Triangular Moving Average
+Weighted Close

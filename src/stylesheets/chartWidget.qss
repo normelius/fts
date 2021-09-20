@@ -1,0 +1,57 @@
+
+#chartTopMenu {
+  background-color: #282B31;
+  border-right: 1px solid #4C4F54;
+  border-left: 1px solid #4C4F54;
+  border-top: 1px solid #4C4F54;
+}
+
+#resolutionButton, #chartTypeButton, #forexButton, #studiesButton {
+  border-style: solid;
+  color: white;
+  background-color: #34373E;
+  border: 1px solid #1e1e1e;
+  border-radius: 1;
+  font-size: 13pt;
+  min-height: 26px;
+}
+
+#forexButton {
+  min-width: 5em;
+  max-width: 5em;
+  padding-left: 1em;
+}
+
+#resolutionButton {
+  min-width: 2em;
+  max-width: 2em;
+  padding-left: 1em;
+}
+
+#chartTypeButton {
+  min-width: 6.5em;
+  max-width: 6.5em;
+  padding-left: 1em;
+}
+
+#studiesButton {
+  min-width: 5em;
+  max-width: 5em;
+}
+
+#resolutionButton:hover, #chartTypeButton:hover, #forexButton:hover, #studiesButton:hover {
+  border: 1px solid #43474F;
+}
+
+QComboBox QAbstractItemView {
+  border: 0px;
+  background-color: #34373E;
+  color: white;
+  selection-background-color: lightgray;
+  height: 40px;
+}
+
+/* Remove dropdown button on QComboBox */
+QComboBox::drop-down{
+  border: 0px;
+}

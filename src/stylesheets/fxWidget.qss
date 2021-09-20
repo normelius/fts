@@ -1,0 +1,47 @@
+
+#fxWidgetHeader {
+  min-height: 34px;
+  max-height: 34px;
+  background-color: #282B31;
+  border-left: 1px solid #4C4F54;
+  border-top: 1px solid #4C4F54;
+  border-right: 1px solid #4C4F54;
+}
+
+#fxWidgetHeaderLabel {
+  color: white;
+  background-color: #282B31;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0px;
+}
+
+QHeaderView::section {
+  background-color: #202226;
+  color: white;
+  padding-left: 6;
+  padding-bottom: -2px;
+  font-size: 12pt;
+  border: 0px;
+  border-style: none;
+}
+
+QTableWidget {
+  background-color: #202226;
+  gridline-color: #2B2E34; 
+  border-right: 1px solid #4C4F54;
+  border-left: 1px solid #4C4F54;
+  border-bottom: 1px solid #4C4F54;
+}
+
+QTableWidget::item {
+  color: white;
+}
+
+QTableWidget::item:selected{ 
+  background-color: #292F30;
+}
+
+QTableWidget::item:hover{ 
+  background-color: #292F30;
+}
